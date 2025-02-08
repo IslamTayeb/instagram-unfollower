@@ -22,7 +22,7 @@ def setup_logging():
 def get_non_followers():
     logger = setup_logging()
     max_retries = 3
-    retry_delay = 300  # 5 minutes
+    retry_delay = 300
 
     username = input("Enter your Instagram username: ")
     password = getpass.getpass("Enter your Instagram password: ")

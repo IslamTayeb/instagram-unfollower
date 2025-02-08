@@ -44,18 +44,6 @@ def unfollow_from_json(username, password, json_file="non_followers.json"):
         logging.info(f"\n[{i}/{len(users)}] Processing @{username}")
 
         try:
-            # Try to get user info first to verify account exists
-            # try:
-            #     user_info = cl.user_info(user_id)
-            #     if not user_info:
-            #         logging.info(f"User @{username} not found, skipping...")
-            #         skipped += 1
-            #         continue
-            # except Exception as e:
-            #     logging.info(f"Could not fetch info for @{username}, skipping...")
-            #     skipped += 1
-            #     continue
-
             result = cl.user_unfollow(user_id)
 
             if result:
