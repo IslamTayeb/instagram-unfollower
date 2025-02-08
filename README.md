@@ -1,9 +1,8 @@
-# Automated Instagram Non-Mutual Unfollower
+# Instagram Non-Mutual Unfollower
 This project provides a set of tools to automatically identify and unfollow users on Instagram who don't follow you back.  It uses two methods: one leveraging the `instagrapi` library for efficient unfollowing and another utilizing Selenium for a more browser-based approach.
 
-
 <div align="center">
-<img src="https://github.com/IslamTayeb/instagram-unfollower/blob/main/public/image-1739055909139.png?raw=true" alt="image-1739055909139.png" />
+<img src="https://github.com/IslamTayeb/instagram-unfollower/blob/main/public/image-1739056283083.png?raw=true" alt="image-1739056283083.png" />
 </div>
 
 
@@ -54,5 +53,8 @@ No specific configuration files are used.  Your Instagram username and password 
 
 ## Dependencies
 The project dependencies are listed in `requirements.txt`.  Install them using `pip install -r requirements.txt`.
+
+## Story
+Made this since I noticed a few new irls didn't know I had an instagram account since my current Instagram account gives them a warning about potentially following a bot whenever they tried following me. To fix this, and the fact that I had way more "following" (2100~) than "followers" (1000~), I created this script to automatically unfollow all non-mutual accounts lmao
 
 *README.md was made with [Etchr](https://etchr.dev)*
