@@ -1,8 +1,9 @@
 # Automated Instagram Non-Mutual Unfollower
 This project provides a set of tools to automatically identify and unfollow users on Instagram who don't follow you back.  It uses two methods: one leveraging the `instagrapi` library for efficient unfollowing and another utilizing Selenium for a more browser-based approach.
 
+
 <div align="center">
-<img src="https://github.com/IslamTayeb/instagram-unfollower/blob/main/image-1739055859142.png?raw=true" alt="image-1739055859142.png" />
+<img src="https://github.com/IslamTayeb/instagram-unfollower/blob/main/public/image-1739055909139.png?raw=true" alt="image-1739055909139.png" />
 </div>
 
 
